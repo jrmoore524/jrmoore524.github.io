@@ -97,7 +97,7 @@ nav a:hover::before {
 .about {
   text-align: center;
   color: LightCyan;
-  line-height: 4em;
+  line-height: 3em;
   margin-left: 60px;
   margin-right: 60px;
 }
@@ -126,7 +126,10 @@ font-size: 3em;
 }
 
 .projects h3 {
-  font-size: 1.5em
+  font-size: 1.5em;
+  text-align: center;
+  
+  
 }
 
 img {
@@ -166,12 +169,43 @@ img {
   grid-column: 2 / span 1;
 }
 
+.websites {
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+.websites h1 {
+  text-align: center;
+  font-size: 3em;
+  color: lightcyan;
+}
+
+
+.websites p {
+  text-align: center;
+  color: lightcyan;
+}
+.web1 {
+  align-items: center;
+  text-align: center;
+}
+
+#img-caption {
+  color: lightcyan;
+  font-size: 0.7em;
+}
+
 .contact {
+margin-top: 7em;
 color: LightCyan;
 text-align: center;
+}
+
+.contact h1 {
+  font-size: 3em;
 }
 
 .link-img {
   width: 50px;
   height: 50px;
 }
+
