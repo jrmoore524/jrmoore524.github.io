@@ -7,7 +7,7 @@ body {
   margin: 0;
   background: url("https://img.wallpapersafari.com/desktop/1920/1080/22/93/mDxAXe.jpg");
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: 100% auto;
   font-family: 'Merriweather', sans-serif;
   font-size: 20px;
 }
