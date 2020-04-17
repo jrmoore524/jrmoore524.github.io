@@ -7,7 +7,7 @@ body {
   margin: 0;
   background: url("https://www.rainbowarticles.com/wp-content/uploads/2019/09/web-design-wallpaper-background-1920x1200-3.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   font-family: 'Merriweather', sans-serif;
   font-size: 20px;
 }
