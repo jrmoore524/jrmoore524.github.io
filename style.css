@@ -7,7 +7,7 @@ body {
   margin: 0;
   background: url("https://wp-media.petersons.com/blog/wp-content/uploads/2018/01/10124447/codes-coding-computer-577585.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
   font-family: 'Merriweather', sans-serif;
   font-size: 20px;
 }
