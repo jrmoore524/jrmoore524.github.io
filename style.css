@@ -107,8 +107,15 @@ nav a:hover::before {
 }
 
 .about h3 {
-  font-size: 1.5em;
+  font-size: 1.3em;
 }
+
+.about p {
+  background-color: #444;
+  opacity: 60%;
+  color: LightCyan;
+}
+
 
 /*PROJECTS SECTION */
 
