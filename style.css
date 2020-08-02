@@ -116,6 +116,14 @@ nav a:hover::before {
   color: LightCyan;
 }
 
+/*RESUME SECTION */
+
+.resume h1 {
+  margin-left: 600px;
+  text-align: center;
+  color: LightCyan;
+}
+
 
 /*PROJECTS SECTION */
 
