@@ -126,6 +126,7 @@ nav a:hover::before {
   text-align: center;
   color: LightCyan;
   margin-bottom: 50px;
+  text-decoration: underline;
 }
 
 
@@ -144,6 +145,7 @@ nav a:hover::before {
 font-size: 3em;
 margin-top: 100px;
 margin-bottom: 50px;
+text-decoration: underline;
 }
 
 .projects h3 {
@@ -208,6 +210,7 @@ img {
   color: lightcyan;
   margin-top: 100px;
   margin-bottom: 50px;
+  text-decoration: underline;
 }
 
 .fotorama {
@@ -240,6 +243,7 @@ text-align: center;
 
 .contact h1 {
   font-size: 3em;
+  text-decoration: underline;
 }
 
 .link-img {
