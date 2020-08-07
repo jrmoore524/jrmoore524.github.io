@@ -129,6 +129,14 @@ nav a:hover::before {
   text-decoration: underline;
 }
 
+.resumelink {
+  text-align: center;
+}
+
+.resumelink a {
+  color: LightCyan;
+}
+
 
 /*PROJECTS SECTION */
 
