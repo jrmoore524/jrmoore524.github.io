@@ -249,9 +249,23 @@ color: LightCyan;
 text-align: center;
 }
 
+.contact p {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.contact a {
+  color: lightcyan;
+}
+
 .contact h1 {
   font-size: 3em;
   text-decoration: underline;
+}
+
+.contact h3 {
+  font-size: 2em;
+  font-weight: bold;
 }
 
 .link-img {
