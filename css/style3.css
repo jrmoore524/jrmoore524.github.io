@@ -5,13 +5,12 @@
 
 body {
   margin: 0;
-  background: url("images/blackdiamond.jpg");
+  background: url("../images/blackdiamond.jpg");
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
   font-family: 'Merriweather', sans-serif;
   font-size: 20px;
 }
-
 
 /*NAVBAR SECTION */
 
@@ -94,50 +93,6 @@ nav a:hover::before {
   width: 100%;
 }
 
-/* ABOUT SECTION */
-
-.about {
-  text-align: center;
-  color: LightCyan;
-  line-height: 3em;
-  margin-left: 60px;
-  margin-right: 60px;
-}
-.about h1 {
-  margin-top: 100px;
-  font-size: 3em;
-}
-
-.about h3 {
-  font-size: 1.3em;
-}
-
-.about p {
-  background-color: #444;
-  opacity: 60%;
-  color: LightCyan;
-}
-
-/*RESUME SECTION */
-
-.resume h1 {
-  font-size: 3em;
-  margin-top: 100px;
-  text-align: center;
-  color: LightCyan;
-  margin-bottom: 50px;
-  text-decoration: underline;
-}
-
-.resumelink {
-  text-align: center;
-}
-
-.resumelink a {
-  color: LightCyan;
-}
-
-
 /*PROJECTS SECTION */
 
 .projects {
@@ -208,69 +163,6 @@ img {
   text-align: center;
   font-size: 3em;
   color: lightcyan;
-}
-
-/* CERTIFICATIONS SECTION */
-
-.certs h1 {
-  text-align: center;
-  font-size: 3em;
-  color: lightcyan;
-  margin-top: 100px;
-  margin-bottom: 50px;
-  text-decoration: underline;
-}
-
-.fotorama {
-  margin: 20px 300px;
-}
-
-
-.websites p {
-  text-align: center;
-  color: lightcyan;
-}
-.web1 {
-  align-items: center;
-  text-align: center;
-}
-
-#img-caption {
-  color: lightcyan;
-  font-size: 0.7em;
-}
-
-/*CONTACT SECTION */
-
-.contact {
-margin-top: 100px;
-margin-bottom: 50px;
-color: LightCyan;
-text-align: center;
-}
-
-.contact p {
-  font-size: 2em;
-  font-weight: bold;
-}
-
-.contact a {
-  color: lightcyan;
-}
-
-.contact h1 {
-  font-size: 3em;
-  text-decoration: underline;
-}
-
-.contact h3 {
-  font-size: 2em;
-  font-weight: bold;
-}
-
-.link-img {
-  width: 50px;
-  height: 50px;
 }
 
 /* Media Queries */

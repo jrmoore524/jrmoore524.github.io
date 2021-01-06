@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  background: url("../images/blackdiamond.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Merriweather', sans-serif;
+  font-size: 20px;
+}
+
+/*NAVBAR SECTION */
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+span {
+  font-weight: bold;
+  color: #444;
+}
+
+header {
+  background: linear-gradient(LightCyan, #444);
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logo {
+  width: 100px;
+  height: 80px;
+  float: left;
+  padding: 0 0;
+  margin-top: 35px;
+  font-size: 1.8em;
+
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 30px;
+  padding-top: 45px;
+
+/* pseudo-element for hover effect */
+  position: relative;
+}
+
+nav a {
+  color: #444;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: black;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #444;
+  position: absolute;
+  width: 100%;
+  top: 25px;
+  width: 0;
+
+/* pseudo-element for hover effect */
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
+/*CONTACT SECTION */
+
+.contact {
+margin-top: 100px;
+margin-bottom: 50px;
+color: LightCyan;
+text-align: center;
+}
+
+.contact p {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.contact a {
+  color: lightcyan;
+}
+
+.contact h1 {
+  font-size: 3em;
+  text-decoration: underline;
+}
+
+.contact h3 {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.link-img {
+  width: 50px;
+  height: 50px;
+}
+
+/* Media Queries */
+
