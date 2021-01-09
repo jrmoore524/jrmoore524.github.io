@@ -123,5 +123,45 @@ nav a:hover::before {
   font-size: 0.7em;
 }
 
+/*Intro*/
+
+.intro {
+  background:black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slider {
+  background: linear-gradient(LightCyan, #444);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: translateY(100%);
+}
+
+.text {
+  color: LightCyan;
+  font-family: 'Merriweather', sans-serif;
+  font-size: 3em;
+  
+}
+
+.hide {
+  background: black;
+  overflow: hidden;
+}
+
+.hide span {
+  transform: translateY(100%);
+  display: inline-block;
+}
+
 /* Media Queries */
 
