@@ -15,7 +15,7 @@ body {
 /*NAVBAR SECTION */
 
 .container {
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -133,7 +133,7 @@ img {
   grid-template-columns: repeat(2, 400px);
   grid-row-gap: 40px;
   grid-column-gap: 40px;
-  justify-content: center;
+  justify-content:center;
   position: relative;
   width: 100%;
 }
@@ -214,4 +214,30 @@ img {
 }
 
 /* Media Queries */
+@media only screen and (max-width: 480px) {
+  header {
+    background: lightcyan;
+  }
+  .logo {
+    font-size: 2.2em;
+  }
+  nav li {
+    display:inline-flex;
+    margin-left:10px;
+    padding-top: 5px;
+    padding-bottom: 40px;
+  }
+  nav a {
+    font-size: .5em;
+  }
+  .projects h1 {
+    font-size: 2.1em;
+  }
+  .projects h3 {
+    font-size: .6em;
+  }
+  .text {
+    font-size: 1em;
+  }
+}
 

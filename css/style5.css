@@ -15,7 +15,7 @@ body {
 /*NAVBAR SECTION */
 
 .container {
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -172,4 +172,34 @@ text-align: center;
 }
 
 /* Media Queries */
+@media only screen and (max-width: 480px) {
+  header {
+    background: lightcyan;
+  }
+  .logo {
+    font-size: 2.2em;
+  }
+  nav li {
+    display:inline-flex;
+    margin-left:10px;
+    padding-top: 5px;
+    padding-bottom: 40px;
+  }
+  nav a {
+    font-size: .5em;
+  }
+  .contact h1 {
+    font-size: 2.1em;
+  }
+  .contact h2 {
+    font-size: .6em;
+  }
+  .contact p {
+    line-height:.2in;
+    font-size: .6em;
+  }
+  .text {
+    font-size: 1em;
+  }
+}
 

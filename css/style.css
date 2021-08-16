@@ -15,7 +15,7 @@ body {
 /*NAVBAR SECTION */
 
 .container {
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -51,7 +51,7 @@ nav {
 nav ul {
   margin: 0;
   padding: 0;
-  list-style: none;
+  list-style:none;
 }
 
 nav li {
@@ -163,4 +163,35 @@ nav a:hover::before {
 }
 
 /* Media Queries */
+@media only screen and (max-width: 480px) {
+  header {
+    background: lightcyan;
+  }
+  .logo {
+    font-size: 2.2em;
+  }
+  nav li {
+    display:inline-flex;
+    margin-left:10px;
+    padding-top: 5px;
+    padding-bottom: 40px;
+  }
+  nav a {
+    font-size: .5em;
+  }
 
+  .about h1 {
+    font-size: 2.1em;
+  }
+
+  .about h3 {
+    font-size: .6em;
+  }
+  .about p {
+    line-height:.2in;
+    font-size: .6em;
+  }
+  .text {
+    font-size: 1em;
+  }
+}
