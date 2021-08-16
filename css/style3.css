@@ -269,6 +269,15 @@ img {
   nav a {
     font-size: .8em;
   }
+  
+  nav li {
+    margin-left:10px;
+  }
+  .text {
+    font-size: 2.0em;
+  }
+}
+@media only screen and (max-width: 900px ) {
   .tile1 {
     grid-row: 1 /span 1;
     grid-column: 1/ span 2;
@@ -292,12 +301,6 @@ img {
   .tile5 {
     grid-row: 5 / span 2;
     grid-column: 1 / span 2;
-  }
-  nav li {
-    margin-left:10px;
-  }
-  .text {
-    font-size: 2.0em;
   }
 }
 
