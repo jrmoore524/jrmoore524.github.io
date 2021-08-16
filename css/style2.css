@@ -207,5 +207,8 @@ nav a:hover::before {
   nav li {
     margin-left:10px;
   }
+  .text {
+    font-size: 2.0em;
+  }
 }
 
