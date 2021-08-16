@@ -177,7 +177,7 @@ text-align: center;
     background: lightcyan;
   }
   .logo {
-    font-size: 1.7em;
+    font-size: 1.5em;
   }
   nav li {
     display:inline-flex;
@@ -192,7 +192,7 @@ text-align: center;
     font-size: 2.1em;
   }
   .contact h2 {
-    font-size: .6em;
+    font-size: .8em;
   }
   .contact p {
     line-height:.2in;

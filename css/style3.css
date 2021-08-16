@@ -219,7 +219,7 @@ img {
     background: lightcyan;
   }
   .logo {
-    font-size: 1.7em;
+    font-size: 1.5em;
   }
   nav li {
     display:inline-flex;
@@ -234,7 +234,7 @@ img {
     font-size: 2.1em;
   }
   .projects h3 {
-    font-size: .6em;
+    font-size: .8em;
   }
   .text {
     font-size: 1em;
