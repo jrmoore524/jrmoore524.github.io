@@ -220,6 +220,7 @@ img {
   }
   .logo {
     font-size: 1.5em;
+    margin-left: 50px;
   }
   nav li {
     display:inline-flex;
