@@ -97,7 +97,7 @@ nav a:hover::before {
 
 .contact {
 margin-top: 100px;
-margin-bottom: 50px;
+margin-bottom: 100px;
 color: LightCyan;
 text-align: center;
 }
@@ -125,7 +125,7 @@ text-align: center;
 }
 
 .link-img {
-  background-color: white;
+  background-color: LightCyan;
   width: 125px;
   height: 125px;
   margin: 50px 50px;
