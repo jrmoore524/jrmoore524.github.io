@@ -118,7 +118,7 @@ text-decoration: underline;
 .projects h3 {
   font-size: 1.5em;
   text-align: center;
-  margin-top: 50px;
+  margin-top: 25px;
 }
 
 .projects h3 a {
@@ -126,6 +126,7 @@ text-decoration: underline;
   color: LightCyan;
   
 }
+
 img {
   max-height: 100%;
   width: 300px;
@@ -142,6 +143,7 @@ img {
   justify-content:center;
   position: relative;
   width: 100%;
+  margin-bottom: 2em;
 }
 
 .tile1 {
